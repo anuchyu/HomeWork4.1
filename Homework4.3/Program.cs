@@ -15,49 +15,59 @@ namespace Homework4._3
             Console.SetCursorPosition(centerX, 0);
             Console.WriteLine(Text);
             Random random = new Random();
-            bool x = true;
-            while (x)
-            {
-                Console.Write("Введите максимальное число диапозона: ");
-                String max = Console.ReadLine();
-                if (max == "")
-                {
-                    break;
-                }
-                    int maxValue = Convert.ToInt32(max) + 1;
-                    int number = random.Next(maxValue);
+            bool play = true;
                 do
                 {
-                    Console.Write("Введите число: ");
-                    String check = Console.ReadLine();
-                    if (check == "")
+                    Console.Write("Введите максимальное число диапазона: ");
+                    String max = Console.ReadLine();
+                    if (max == "")
                     {
-                        Console.WriteLine($"Загаданное число было равно {number}");
                         break;
-                        x = false;
                     }
-                    else
+                    int maxValue;
+                    while (Int32.TryParse(max, out maxValue) is false)
                     {
-                        int countNumber = Convert.ToInt32(check);
-                        if (number > countNumber)
+                        Console.WriteLine("Ошибка ввода, введите корректные данные.");
+                    break;
+                    }
+                    int number = random.Next(maxValue+1);
+                    do
+                    {
+                        Console.Write("Введите число: ");
+                        String check = Console.ReadLine();
+                        if (check == "")
                         {
-                            Console.WriteLine("Сгенерированное число больше");
-                        }
-                        else
-                            if (number < countNumber)
-                        {
-                            Console.WriteLine("Сгенерированное число меньше");
-                        }
-                        else
-                            if (number == countNumber)
-                        {
-                            Console.WriteLine("Вы угадали число!\n\n");
+                            Console.WriteLine($"Загаданное число было равно {number}");
+                            play = false;
                             break;
                         }
-                    }
+                        else
+                        {
+                            int countNumber;
+                            while (Int32.TryParse(check, out countNumber) is false)
+                            {
+                                Console.WriteLine("Ошибка ввода, введите корректные данные.");
+                                break;
+                            }
+                                if (number > countNumber)
+                                {
+                                    Console.WriteLine("Сгенерированное число больше");
+                                }
+                                else
+                                    if (number < countNumber)
+                                {
+                                    Console.WriteLine("Сгенерированное число меньше");
+                                }
+                                else
+                                    if (number == countNumber)
+                                {
+                                    Console.WriteLine("Вы угадали число!\n\n");
+                                    break;
+                                }
+                        }
 
-                } while (true);
-            }
+                    } while (true);
+                } while (play);
             Console.ReadKey();
         }
     }

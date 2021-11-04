@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\HomeWork4.1\Homework4.3\bin\Debug\Homework4.3.exe.config
+C:\Users\User\source\repos\HomeWork4.1\Homework4.3\bin\Debug\Homework4.3.exe
+C:\Users\User\source\repos\HomeWork4.1\Homework4.3\bin\Debug\Homework4.3.pdb
+C:\Users\User\source\repos\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.exe
+C:\Users\User\source\repos\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.pdb
+C:\Users\User\Desktop\Скилбокс\работа 4\HomeWork4.1\Homework4.3\bin\Debug\Homework4.3.exe.config
+C:\Users\User\Desktop\Скилбокс\работа 4\HomeWork4.1\Homework4.3\bin\Debug\Homework4.3.exe
+C:\Users\User\Desktop\Скилбокс\работа 4\HomeWork4.1\Homework4.3\bin\Debug\Homework4.3.pdb
+C:\Users\User\Desktop\Скилбокс\работа 4\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Скилбокс\работа 4\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Скилбокс\работа 4\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.exe
+C:\Users\User\Desktop\Скилбокс\работа 4\HomeWork4.1\Homework4.3\obj\Debug\Homework4.3.pdb
